@@ -20,9 +20,10 @@ public class AdminsChatProfix implements Listener {
         e.setCancelled(true);
 
         if (e.getPlayer().isOp()) {
-
+            //OPの場合
             Bukkit.broadcastMessage(ChatColor.GOLD  + "[運営] " + ChatColor.WHITE + e.getPlayer().getName() + ": " + e.getMessage());
         } else
+            //OPじゃない場合
             Bukkit.broadcastMessage(e.getPlayer().getName() + " : " + e.getMessage());
     }
 }
