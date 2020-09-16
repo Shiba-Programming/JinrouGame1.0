@@ -1,0 +1,4 @@
+main: xyz.shiba.mcpl.pg.Main
+name: JinrouGame
+version: ${project.version}
+api-version: 1.8
