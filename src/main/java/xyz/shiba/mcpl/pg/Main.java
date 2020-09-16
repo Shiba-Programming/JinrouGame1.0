@@ -9,6 +9,7 @@ public class Main extends JavaPlugin {
 
         getLogger().info("プラグインを起動しました");
 
+        //クラス継承？
         getServer().getPluginManager().registerEvents(new AdminsChatProfix(this),this);
         getServer().getPluginManager().registerEvents(new AdminsChatProfix(this),this);
 

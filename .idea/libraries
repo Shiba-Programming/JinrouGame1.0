@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="libraryTable">
+    <library name="spigot-1.8">
+      <CLASSES>
+        <root url="jar://E:/BuildTools/spigot-1.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://E:/BuildTools/spigot-1.8.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+</project>
