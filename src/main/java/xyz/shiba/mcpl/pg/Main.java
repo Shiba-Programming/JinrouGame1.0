@@ -18,6 +18,9 @@ public class Main extends JavaPlugin {
         //コマンドクラス
         Bukkit.getPluginCommand("gjstart").setExecutor(new JGStart());
 
+        //コマンドクラス
+        Bukkit.getPluginCommand("gjstart").setExecutor(new JGStart());
+
     }
 
     public void onDisable() {
