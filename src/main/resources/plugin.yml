@@ -2,3 +2,17 @@ main: xyz.shiba.mcpl.pg.Main
 name: JinrouGame
 version: ${project.version}
 api-version: 1.8
+author: shiba19
+
+commands:
+  jgstart:
+    description: ゲームをスタートさせる
+    usage: /<command>
+    permission: op
+    permission-message: 権限がありません
+
+  jgstop:
+    description: ゲームをストップさせる
+    usage: /<command>
+    permission: op
+    permission-message: 権限がありません
